@@ -1,48 +1,39 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
 
 /**
  * main -entry point
- * Return: Always 0 (success) 
+ * Return: Always 0 (success)
  */
 
 int main(void)
 
 {
-
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-	
-	{
-
-	int n = 0
 
 	if (n > 0)
 
 	{
-	printf(" the number is positive\n");
+		printf("%d is positive\n", n);
 	}
 
 	else if (n < 0)
 
 	{
-	printf("the number is negative\n");
+		printf("%d is negative\n", n);
 	}
 
-	else (n == 0)
-
+	else
 	{
-	printf(" the number is zero\n");
+		printf("%d is zero\n", n);
 	}
-
-	}
-
 	return (0);
 
 }
-
