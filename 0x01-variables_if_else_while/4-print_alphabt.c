@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
  * main - entry point
@@ -19,7 +17,7 @@ int main(void)
 			letter++;
 		}
 		else if (letter == 'q')
-		{
+		i{
 			letter++;
 		}
 		else
