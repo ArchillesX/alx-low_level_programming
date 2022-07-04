@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
  * main - Entry point
@@ -8,18 +10,22 @@
 
 int main(void)
 {
+	char letter = 'a';
 
-int ch;
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
 
-/* print lowercase letters */
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
+	letter = 'A';
+
+	while (letter <= 'Z';)
+	{
+		putchar(letter);
+		letter++;
+	}
+
 	putchar('\n');
-	getch();
-
-/* print uppercase letters */
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar(ch);
-	putchar(‘\n’);
-	getch();
+	return (0);
 }
