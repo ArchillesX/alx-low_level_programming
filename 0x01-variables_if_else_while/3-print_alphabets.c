@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: Lowercase and Uppercase
+ * Description: Alphabets
  * Return: Always 0 (success)
  */
 
