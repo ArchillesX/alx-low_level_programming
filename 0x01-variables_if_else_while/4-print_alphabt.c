@@ -5,7 +5,7 @@
 /**
  * main - entry point
  * Description: Alphabets
- * Return: Always 0 (success)
+ * Return: zero on success
  */
 
 int main(void)
