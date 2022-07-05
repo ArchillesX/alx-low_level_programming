@@ -1,31 +1,29 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- * Description: Alphabets
- * Return: zero on success
+ *main - entry point
+ *Return: 0
  */
 
 int main(void)
 {
-	char letter = 'a';
+	int ch;
 
-	while (letter <= 'z')
+	for (ch = 97; ch <= 122; ch++)
 	{
-		putchar(letter);
-		letter++;
+	putchar(ch);
+	}
+	for (ch = 65; ch <= 90; ch++)
+	{
+
+	putchar(ch);
+
 	}
 
-	letter = 'A';
+	putchar(10) :
 
-	while (letter <= 'Z';)
-	{
-		putchar(letter);
-		letter++;
-	}
+	return (0) :
 
-	putchar('\n');
-	return (0);
 }
