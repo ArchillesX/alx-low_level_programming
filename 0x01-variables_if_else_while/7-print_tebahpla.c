@@ -1,6 +1,6 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
  *main - entry point
  *Return: 0 if success
@@ -9,13 +9,13 @@
 int main(void)
 
 {
-	char d = '0';
+	char ch;
 
-	while (d <= '9')
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-	putchar(d);
-	d++;
+	putchar(ch);
 	}
-	putchar('\n');
+	putchar(10);
+
 	return (0);
 }
